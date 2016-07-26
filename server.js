@@ -23,7 +23,7 @@ MongoDB.once('open', function () {
 var app = express();
 
 app.use(session({
-   secret: 'secret',
+   secret: 'maddon',
    key: 'user',
    resave: true,
    saveUninitialized: false,
